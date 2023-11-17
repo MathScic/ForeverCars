@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+}
+
+/**Header**/
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+.logo-header {
+    max-width: 200px;
+}
+
+.header-lien {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: #F5F1F1;
+}
+
+.social-media {
+    font-size: 20px;
+    color: #F5F1F1;
+    text-align: center;
+}
+
+/**Banner**/
+
+.carousel-inner img {
+    height: 400px; /* Ajustez cette valeur en fonction de la hauteur de votre bannière */
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    width: 100%; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 50px;
+    color: azure; /* Couleur de fond pour les flèches */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+    cursor: pointer;
+    z-index: 2; /* Assurez-vous que les flèches sont au-dessus de l'image */
+    font-size: 60px;
+  }
+
+/**Search-Barre**/ 
+.search-barre {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-barre i {
+    position: absolute;
+    padding-right: 1rem;
+}
+
+.input-search {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+}
+
+/**About **/
+
+.about {
+    border: 1px solid ;
+    margin-top: 4rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.about-brand {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.about a {
+    text-decoration: underline #C80AF5;
+    color: #F5F1F1;
+}
+
+.about-title {
+    font-size: 25px;
+    text-decoration: underline #C80AF5 ;
+    color: #F5F1F1;
+}
+
+.about-text {
+    color: #F5F1F1;
+}
+
+.about-liens {
+    font-size: 25px;
+}
+
+.about-pictures img {
+    width: 50%;
+}
+
+.about-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
