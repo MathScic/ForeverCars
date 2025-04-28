@@ -35,9 +35,9 @@ const Navbar = () => {
           className="text-3xl font-bold text-[#8350f1] hover:text-[#6e3ae5] transition-all"
         >
           <Image
-            src="/images/logo.png" // Attention au chemin exact, respecte bien le nom du fichier
+            src="/images/Logo.png"
             alt="Logo ForeverCars"
-            width={160} // ajuste la taille selon ton besoin
+            width={160}
             height={80}
             className="object-contain"
           />
