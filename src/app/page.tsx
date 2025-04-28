@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
-import CarousselVoitures from "@/components/CarousselVoitures";
 import ContactForm from "@/components/ContactForm";
 import { Metadata } from "next";
 import AdvantagesSection from "@/components/AdvantageSection";

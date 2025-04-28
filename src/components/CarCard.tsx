@@ -12,7 +12,7 @@ type Car = {
   description: string;
 };
 
-const CarCard = ({ id, name, price, image, description }: Car) => {
+const CarCard = ({ name, price, image, description }: Car) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = () => {

@@ -14,7 +14,7 @@ const AboutContent = () => {
         choisi avec soin, inspecté et prêt à offrir des sensations uniques.
       </p>
       <p>
-        Fondée par des passionnés d’automobile, ForeverCars s'engage à offrir un
+        Fondée par des passionnés d’automobile, ForeverCars s&engage à offrir un
         service personnalisé, transparent et de qualité à tous ses clients.
       </p>
       <p>
