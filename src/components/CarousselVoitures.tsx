@@ -10,12 +10,12 @@ const CarousselVoitures = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false); // démarrage du fondu
+      setFade(false);
       setTimeout(() => {
         setIndex((prev) => (prev + 1) % cars.length);
-        setFade(true); // déclenche le fade-in
-      }, 500); // timing du fade-out
-    }, 5000); // délai entre chaque voiture
+        setFade(true);
+      }, 500);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -39,7 +39,7 @@ const CarousselVoitures = () => {
         </div>
         <div className="p-6 text-center">
           <h3 className="text-2xl font-semibold mb-2">{voiture.name}</h3>
-          <p className="text-[#8350f1] text-lg font-bold">{voiture.prix}</p>
+          <p className="text-[#8350f1] text-lg font-bold">{voiture.price}</p>
         </div>
       </div>
     </div>
