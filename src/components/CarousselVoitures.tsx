@@ -32,13 +32,13 @@ const CarousselVoitures = () => {
         >
           <Image
             src={voiture.image}
-            alt={voiture.nom}
+            alt={voiture.name}
             fill
             className="object-cover"
           />
         </div>
         <div className="p-6 text-center">
-          <h3 className="text-2xl font-semibold mb-2">{voiture.nom}</h3>
+          <h3 className="text-2xl font-semibold mb-2">{voiture.name}</h3>
           <p className="text-[#8350f1] text-lg font-bold">{voiture.prix}</p>
         </div>
       </div>
