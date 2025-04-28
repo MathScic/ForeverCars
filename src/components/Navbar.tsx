@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -34,12 +33,10 @@ const Navbar = () => {
           href="/"
           className="text-3xl font-bold text-[#8350f1] hover:text-[#6e3ae5] transition-all"
         >
-          <Image
-            src="/images/Logo.png"
+          <img
+            src="/images/Small-logo.png"
             alt="Logo ForeverCars"
-            width={160}
-            height={80}
-            className="object-contain"
+            className="w-36 md:w-40"
           />
         </Link>
 
