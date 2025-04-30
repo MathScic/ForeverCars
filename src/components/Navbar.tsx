@@ -115,7 +115,11 @@ const Navbar = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="md:hidden overflow-hidden bg-[#2D2B2B] px-6 py-4"
           >
-            <Link href="/" className="block py-2 hover:text-[#8350f1]">
+            <Link
+              href="/"
+              className="block py-2 hover:text-[#8350f1]"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Accueil
             </Link>
 
@@ -141,18 +145,21 @@ const Navbar = () => {
                     <Link
                       href="/our-cars"
                       className="block hover:text-[#8350f1]"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       🚗 Nos voitures
                     </Link>
                     <Link
                       href="/buy-cars"
                       className="block hover:text-[#8350f1]"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       💰 Acheter
                     </Link>
                     <Link
                       href="/sell-cars"
                       className="block hover:text-[#8350f1]"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       📝 Vendre
                     </Link>
@@ -161,12 +168,17 @@ const Navbar = () => {
               </AnimatePresence>
             </div>
 
-            <Link href="/about" className="block py-2 hover:text-[#8350f1]">
+            <Link
+              href="/about"
+              className="block py-2 hover:text-[#8350f1]"
+              onClick={() => setIsMenuOpen(false)}
+            >
               À propos
             </Link>
             <Link
               href="/contact"
               className="mt-4 inline-block w-full text-center bg-[#8350f1] hover:bg-[#6e3ae5] text-white py-2 rounded-md font-semibold transition duration-300 shadow-md"
+              onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </Link>

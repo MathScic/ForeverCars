@@ -21,9 +21,9 @@ const CarsPage = () => {
   };
 
   return (
-    <main className="p-8 bg-[#1C1B1E] min-h-screen">
+    <main className="pt-28 px-6 pb-12 bg-[#1C1B1E] min-h-screen">
       <h1 className="text-4xl font-bold text-center text-[#F7F6F9] mb-10">
-        Nos Voitures Disponibles
+        Nos Voitures disponibles :
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

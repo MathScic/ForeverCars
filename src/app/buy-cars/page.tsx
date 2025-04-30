@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function AcheterVoitures() {
   return (
-    <main className="px-6 py-16 bg-[#1C1B1E] text-[#F7F6F9] min-h-screen">
+    <main className="pt-28 px-6 pb-12 bg-[#1C1B1E] text-[#F7F6F9] min-h-screen">
       {/* Titre principal */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">

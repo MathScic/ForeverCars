@@ -5,10 +5,10 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2D2B2B] text-[#F7F6F9] pt-12 pb-6 mt-12">
+    <footer className="bg-[#2D2B2B] text-[#F7F6F9] py-6">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center">
         {/* Logo Image */}
-        <div>
+        <div className="max-w-7xl mx-auto flex flex-col items-center gap-4 text-center">
           <img
             src="/images/Small-logo.png"
             alt="Logo ForeverCars"
